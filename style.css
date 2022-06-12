@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+body{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.cover {
+   background-color: #56196e;
+   background-image: url(/img/cover1.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    background-image: radial-gradient( circle at top left, #8a3c9e, #130516BB);
+}
+
+ul {
+    padding: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+    font-family: righteous;
+    font-size: 1.2rem;
+    color: #ddd0e0;
+    font-weight: 600;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7px;
+    
+}
+
+#order{
+    border: 2px solid rgb(148, 65, 196);
+    padding: 15px 20px;
+    border-radius: 40px;
+}
+  
+li:hover{
+    transform: scale(1.07);
+    transition: all 0.3s ease;
+}
+
+#order:hover{
+    background-color: #ddd0e0;
+    color:#56196e;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.main-text {
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    height: 450px;
+    width: 450px;
+}
+
+h1 {
+    font-family: righteous;
+    color:rgb(240, 235, 243);
+    font-size: 4rem;
+    
+}
+
+#peçaJá-btn {
+    background-color: #8a3c9e;
+    outline: none;
+    border:none;
+    color:#fff;
+    padding: 15px;
+    border-radius: 20px;
+    font-family: righteous;
+    font-size: 40px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    width: 50%;
+    display: flex;
+    justify-items: center;
+  
+}
+
+.main-text, a{
+    justify-content: center;
+    align-items: center;
+}
+
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #fff;
+    background-color: none;
+    
+}
+a:hover, a:active{
+    color:#56196e;
+    background-color: none;
+}
+
+#peçaJá-btn:hover{
+    background-color: #ddd0e0;
+    color:#56196e;
+    border: none;
+    transition: 0.3s all;
+    transform: scale(1.07);
+}
+
+#productsTitle {
+    display: block;
+    text-align: center;
+    font-family: righteous;
+    color:#f5f0f7;
+    font-size: 2rem;
+    font-weight: 800;
+    
+}
+
+#productsTitle:hover{
+    transform: scale(1.1);
+}
+
+
+.products-container {
+    background-color: rgba(12, 41, 14, 0.507);
+    height: 600px;
+    width: 100%;
+    display: block;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 267px;
+    border-radius: 30px;
+    background-color: #ffffffbb;
+  }
+  
+.gallery:hover {
+    border: 1px solid #777;
+    transform: scale(1.1);
+    
+  }
+  
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 30px 30px 0 0;
+}
+  
+.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: righteous;
+}
+
+
+#news-title {
+    display: flex;
+    font-family: righteous;
+    color:#56196e;
+    font-size: 2rem;
+    font-weight: 600;
+    justify-self: center;
+    justify-content: center;
+}
+
+.news-products-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    
+}
+  
+.news-image{
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 300px;
+    border-radius: 30px;
+    float: left;
+    
+}
+
+.news-image img{
+    width: 100%;
+    border-radius: 30px 30px 0 0;
+}
+
+.news-image:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.about{
+    display: flex;
+    justify-content:center;
+    justify-items: center;
+    align-items: stretch;
+    margin: 10px 0 10px 0;
+    max-height: 650px;
+    
+    
+    
+}
+
+.about-us-image{
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 60%;
+    
+    
+}
+
+.about-text {
+    background-color: rgba(233, 196, 74, 0.979);
+    font-family: righteous;
+    font-size: 1.1rem;
+    text-align: justify;
+    line-height: 1;
+    font-weight: 200;
+    padding: 10px;
+    width: 40%;
+
+}
+
+
+.form-container {
+    background-image: url(/img/socios.JPG);
+    background-size: 450px;
+    height: 100%;
+    width: 100%;
+    padding: 10px 0 10px 0;
+ 
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffffbb;
+    padding: 0 10px 0 10px;    
+    width: 35%;
+    margin-left: 10px;
+}
+
+.title-faleConosco {
+    font-family: righteous;
+    font-size: 20px;
+    color: #56196e;
+    margin: 0;
+    padding: 10px;
+}
+
+.form-text {
+    padding: 10px;
+    font-family: righteous;
+    font-size: 20px;
+}
+
+
+input, select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    box-shadow: #8a3c9e;
+}
+
+#textarea {
+    box-sizing: border-box;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    
+    
+}
+
+input[type="submit"]{
+    color:white;
+    background-color: #56196eb6;
+}
+
+#send-btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #56196e;
+    font-weight: 750;
+}
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: radial-gradient( circle at top left, #8a3c9e, #130516BB);
+    padding: 0 10px 0 10px;
+    
+    
+}
+
+.footer-glass:hover {
+    transform: scale(1.2);
+    transition: all 0.2s ease;
+}
+
+.logo-footer:hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease;
+}
+
+
